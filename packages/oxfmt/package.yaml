@@ -23,7 +23,10 @@ categories:
   - Formatter
 
 source:
-  id: pkg:npm/oxfmt@0.32.0
+  id: pkg:npm/oxfmt@0.46.0
 
 bin:
   oxfmt: npm:oxfmt
+
+neovim:
+  lspconfig: oxfmt
